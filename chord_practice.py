@@ -51,9 +51,6 @@ class ChordMaker(object):
                 exit()
 
 
-def go_through_chords(time_interval):
-    chord_maker = ChordMaker()
-
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("interval", type=int, nargs="?", default=3,
